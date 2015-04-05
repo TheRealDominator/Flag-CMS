@@ -1,0 +1,164 @@
+/** LegacyKit was made by https://github.com/Complexityy **/
+/** You may use and edit LegacyKit however you like, credit would be appreciated. **/
+
+/** Legacy Regular Button **/
+.legacy-btn-regular{
+font-family:sans-serif;
+
+background-color:#FFFFFF;
+cursor:pointer;
+color:#000000;
+padding:15px;
+padding-left:25px;
+padding-right:25px;
+border:0;
+}
+.legacy-btn-regular:hover{
+background-color:#E0E0E0;
+color:#1F1F1F;
+}
+
+
+/** Legacy Inverse Button **/
+.legacy-btn-inverse{
+font-family:sans-serif;
+
+background-color:#545454;
+cursor:pointer;
+color:#FFFFFF;
+padding:15px;
+padding-left:25px;
+padding-right:25px;
+border:0;
+}
+.legacy-btn-inverse:hover{
+background-color:#4A4A4A;
+}
+
+
+/** Legacy Action Button **/
+.legacy-btn-action{
+font-family:sans-serif;
+
+background-color:#4390DE;
+cursor:pointer;
+color:#FFFFFF;
+padding:15px;
+padding-left:25px;
+padding-right:25px;
+border:0;
+}
+.legacy-btn-action:hover{
+background-color:#3683D1;
+}
+
+
+/** Legacy Danger Button **/
+.legacy-btn-danger{
+font-family:sans-serif;
+
+background-color:#DE5D43;
+cursor:pointer;
+color:#FFFFFF;
+padding:15px;
+padding-left:25px;
+padding-right:25px;
+border:0;
+}
+.legacy-btn-danger:hover{
+background-color:#D14536;
+}
+
+
+/** Legacy Warning Button **/
+.legacy-btn-warning{
+font-family:sans-serif;
+
+background-color:#EDB91C;
+cursor:pointer;
+color:#FFFFFF;
+padding:15px;
+padding-left:25px;
+padding-right:25px;
+border:0;
+}
+.legacy-btn-warning:hover{
+background-color:#DEAE1D;
+}
+
+
+/** Legacy Success Button **/
+.legacy-btn-success{
+font-family:sans-serif;
+
+background-color:#5CBA1E;
+cursor:pointer;
+color:#FFFFFF;
+padding:15px;
+padding-left:25px;
+padding-right:25px;
+border:0;
+}
+.legacy-btn-success:hover{
+background-color:#56AD1C;
+}
+
+
+
+/** Legacy text input **/
+.legacy-input{
+font-family:sans-serif;
+
+padding:10px;
+border:0;
+}
+
+
+/** Legacy radio button **/
+.legacy-radio{
+font-family:sans-serif;
+
+cursor:pointer;
+vertical-align:middle;
+width:17.5px;
+height:17.5px;
+margin:-4px 7px 0 0;
+}
+
+
+
+/** Legacy Alert Danger **/
+.legacy-alert-danger{
+font-family:sans-serif;
+
+background-color:#DE5D43;
+color:#FFFFFF;
+padding:15px;
+}
+
+/** Legacy Alert Info **/
+.legacy-alert-info{
+font-family:sans-serif;
+
+background-color:#4390DE;
+color:#FFFFFF;
+padding:15px;
+}
+
+/** Legacy Alert Warning **/
+.legacy-alert-warning{
+font-family:sans-serif;
+
+background-color:#EDB91C;
+color:#FFFFFF;
+padding:15px;
+}
+
+/** Legacy Alert Success **/
+.legacy-alert-success{
+font-family:sans-serif;
+
+background-color:#5CBA1E;
+color:#FFFFFF;
+padding:15px;
+}
