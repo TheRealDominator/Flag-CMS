@@ -1,9 +1,10 @@
+<?php include('../../app/config.php'); ?>
 <!DOCTYPE html>
 <html lang="en-EN">
 
   <head>
   
-    <title>HackflagCMS - Dashboard</title>
+    <title><?php echo $siteTitle; ?> - Dashboard</title>
 	
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -28,7 +29,7 @@
 			  <i style="padding:10px;" class="fa fa-user text-primary fa-2x"></i>
             </div>
             <div class="pull-left info">
-              <p><?php echo $_SERVER['REMOTE_ADDR']; ?></p>
+              <p><?php echo $cmsName; ?></p>
 
               <a href="#"><i class="fa fa-sign-out"></i> Logout</a>
             </div>
@@ -65,13 +66,9 @@
       <div class="content-wrapper">
         <section class="content-header">
           <h1>
-            Dashboard
-            <small>Control panel</small>
+            <?php echo $cmsName; ?>
+            <small>Dashboard</small>
           </h1>
-          <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="active">Dashboard</li>
-          </ol>
         </section>
 
     </div>
