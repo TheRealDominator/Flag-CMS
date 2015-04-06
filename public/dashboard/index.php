@@ -4,7 +4,7 @@
 
   <head>
   
-    <title><?php echo $siteTitle; ?> - Dashboard</title>
+    <title><?php echo SITE_TITLE; ?> - Dashboard</title>
 	
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -29,7 +29,7 @@
 			  <i style="padding:10px;" class="fa fa-user text-primary fa-2x"></i>
             </div>
             <div class="pull-left info">
-              <p><?php echo $cmsName; ?></p>
+              <p><?php echo CMS_NAME; ?></p>
 
               <a href="#"><i class="fa fa-sign-out"></i> Logout</a>
             </div>
@@ -66,7 +66,7 @@
       <div class="content-wrapper">
         <section class="content-header">
           <h1>
-            <?php echo $cmsName; ?>
+            <?php echo CMS_NAME; ?>
             <small>Dashboard</small>
           </h1>
         </section>
