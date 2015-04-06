@@ -4,7 +4,11 @@
 
   <head>
   
+<<<<<<< HEAD
     <title><?php echo htmlspecialchars($siteTitle); ?> - Dashboard</title>
+=======
+    <title><?php echo SITE_TITLE; ?> - Dashboard</title>
+>>>>>>> origin/master
 	
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -29,7 +33,11 @@
 			  <img src="../img/avatar.jpg" class="img-circle" alt="Avatar"/>
             </div>
             <div class="pull-left info">
+<<<<<<< HEAD
               <p><?php echo htmlspecialchars($cmsName); ?></p>
+=======
+              <p><?php echo CMS_NAME; ?></p>
+>>>>>>> origin/master
 
               <a href="#"><i class="fa fa-sign-out"></i> Logout</a>
             </div>
@@ -66,7 +74,11 @@
       <div class="content-wrapper">
         <section class="content-header">
           <h1>
+<<<<<<< HEAD
             <?php echo htmlspecialchars($cmsName); ?>
+=======
+            <?php echo CMS_NAME; ?>
+>>>>>>> origin/master
             <small>Dashboard</small>
           </h1>
         </section>
