@@ -3,7 +3,7 @@
 
 	<head>
 	
-		<title>HackflagCMS</title>
+		<title>Register - FlagCMS</title>
 		<link href="../css/style.css" rel="stylesheet" type="text/css"> <!-- Main style file, importante! -->
 		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		
@@ -15,8 +15,8 @@
 		<div class="container">
 
 			<div class="vertical-center-row">
-			  <form width="10%" class="form-signin" autocomplete='off' />
-				<h2 class="form-signin-heading">HackflagCMS</h2>
+			  <form class="form-signin" autocomplete='off' />
+				<h2 class="form-signin-heading">FlagCMS</h2>
 				<hr><hr><hr>
 				<label for="inputEmail" class="sr-only">Email address</label>
 				<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" autocomplete='off' />
@@ -30,8 +30,6 @@
 			</div>
 		</div>
 	</div>
-
-		<!------= Don't touch below this line =------>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	</body>
 	
