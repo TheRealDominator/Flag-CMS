@@ -3,7 +3,7 @@
 
 	<head>
 	
-		<title>HackflagCMS</title>
+		<title>FlagCMS</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Main style file, importante! -->
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		
@@ -20,7 +20,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand" rel="home" href="index.html">HackflagCMS</a>
+		<a class="navbar-brand" rel="home" href="index.html">FlagCMS</a>
 	</div>
 	
 	<div class="collapse navbar-collapse">
@@ -42,7 +42,7 @@
 	<hr>
 	<div class="container">
   <div class="jumbotron text-center">
-    <h1>HackflagCMS</h1>
+    <h1>FlagCMS</h1>
     <p class="lead">Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by <a href="https://hackflag.org">Hackflag</a></p>
   
   </div>
@@ -54,7 +54,7 @@
       <p>Design we find slightly so important, which is why we make sure it fits your eye.</p>
       <br>
       <h4><span style="font-size:27px" class="glyphicon glyphicon-flash" aria-hidden="true"></span> </h4>
-      <p>We love speed, and power. Which is why we try to make HFCMS as reliable and as fast of a platform possible.</p>
+      <p>We love speed, and power. Which is why we try to make FlagCMS as reliable and as fast of a platform possible.</p>
     </div>
     
     <div class="col-lg-6">
