@@ -2,13 +2,34 @@
 
 include 'config.php'; // Include config file with variables.
 
-define('CMS_NAME', $cmsName); // Define constant preventing API's from overwritting.
+/*
+* Defining constants of the "normal" variables preventing plugins from overwritting.
+* Don't define database-credentials related stuff!
+*/
+define('CMS_NAME', $cmsName);
+define('SITE_TITLE', $siteTitle);
+define('SITE_URL', $siteurl);
+
+/*
+* Call this function if you need a database connection,
+* so it will not create a database connection any time you include bootstrap.php
+*/
+function createDB()
+{
+  $db = new PDO('mysql:host=' . $dbHost . ';dbname=' . $dbName . ';charset=' . $dbChar, $dbUser, $dbPass); //.. Later we need to use a database class for this.
+}
+
+/*
+* Unsetting variables.
+*/
 unset($cmsName);
-
-define('SITE_TITLE', $siteTitle); // Define constant ...
 unset($siteTitle);
-
-define('SITE_URL', $siteurl); // Define constant ...
 unset($siteurl);
+
+unset($dbHost);
+unset($dbName);
+unset($dbUser);
+unset($dbPass);
+unset($dbChar);
 
 ?>

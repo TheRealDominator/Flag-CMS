@@ -1,18 +1,14 @@
-<?php include('../../app/config.php'); ?>
+<?php include('../../app/bootstrap.php'); ?>
 <!DOCTYPE html>
 <html lang="en-EN">
 
   <head>
-  
-<<<<<<< HEAD
-    <title><?php echo htmlspecialchars($siteTitle); ?> - Dashboard</title>
-=======
-    <title><?php echo SITE_TITLE; ?> - Dashboard</title>
->>>>>>> origin/master
-	
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
+
+    <title><?php echo htmlentities(SITE_TITLE); ?> - Dashboard</title>
+
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />    
+    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
     <link href="../css/dboard_design.css" rel="stylesheet" type="text/css" />
     <link href="../css/dboard_style.css" rel="stylesheet" type="text/css" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -21,11 +17,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-	
+
   </head>
   <body class="dbody">
     <div class="wrapper">
-      
+
       <aside class="main-sidebar">
         <section class="sidebar">
           <div class="user-panel">
@@ -33,12 +29,7 @@
 			  <img src="../img/avatar.jpg" class="img-circle" alt="Avatar"/>
             </div>
             <div class="pull-left info">
-<<<<<<< HEAD
-              <p><?php echo htmlspecialchars($cmsName); ?></p>
-=======
-              <p><?php echo CMS_NAME; ?></p>
->>>>>>> origin/master
-
+              <p><?php echo htmlentities(CMS_NAME); ?></p>
               <a href="#"><i class="fa fa-sign-out"></i> Logout</a>
             </div>
           </div>
@@ -74,11 +65,7 @@
       <div class="content-wrapper">
         <section class="content-header">
           <h1>
-<<<<<<< HEAD
-            <?php echo htmlspecialchars($cmsName); ?>
-=======
-            <?php echo CMS_NAME; ?>
->>>>>>> origin/master
+            <?php echo htmlentities(CMS_NAME); ?>
             <small>Dashboard</small>
           </h1>
         </section>

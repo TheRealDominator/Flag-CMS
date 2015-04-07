@@ -2,14 +2,14 @@
 <html lang="en-EN">
 
 	<head>
-	
-		<title>Sign in - FlagCMS</title>
-		<link href="../css/style.css" rel="stylesheet">
-		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<title>Sign in - <?php echo htmlentities(CMS_NAME); ?></title>
+		<link href="<?php echo htmlentities(SITE_URL,ENT_QUOTES); ?>public/css/style.css" rel="stylesheet">
+		<link href="<?php echo htmlentities(SITE_URL,ENT_QUOTES); ?>public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" >
-		
+
 	</head>
-	
+
 	<body class="body">
 
 	<div class="jumbotron vertical-center">
@@ -34,5 +34,5 @@
 	</div>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	</body>
-	
+
 </html>
