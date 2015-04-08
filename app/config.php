@@ -28,9 +28,9 @@
 * ---------------------------
 */
 
-$cmsName = 'FlagCMS'; //.. This is the name your CMS will be shown at
+$cmsName = 'FlagCMS'; //.. This is the name your CMS will be shown as
 $siteTitle = 'The Hackflag CMS'; //.. This will be displayed in the title of the web page
-$siteurl = 'http://127.0.0.1/Flag-CMS/'; //.. URL of the website.
+$siteurl = 'http://127.0.0.1/Flag-CMS/'; //.. URL of the website
 
 $debug = true; //.. If your website is under development, set this to true, if your website is in production, set this to false. Don't place quotes around this.
 
